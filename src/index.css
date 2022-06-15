@@ -4,14 +4,30 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  outline: 0;
+  list-style: none;
+  border: 0;
+  text-decoration: none;
 }
 
 :root{
   --bg-color:grey;
   --txt-color:black;
   --transition: all 1.2s;
+  --container-width-lg: 75%;
+  --container-width-md: 86%;
+  --container-width-sm: 90%;
 }
 
 body{
   font-family: 'Poppins', sans-serif;
+  line-height: 1.7;
 }
+htm{
+  scroll-behavior: smooth;
+}
+.container{
+  width: var(--container-width-lg);
+  margin: 0 auto;
+}
+
