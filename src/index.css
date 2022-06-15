@@ -30,4 +30,30 @@ htm{
   width: var(--container-width-lg);
   margin: 0 auto;
 }
+a{
+  color: var(--txt-color);
+}
+a:hover{
+  color: aqua;
+}
+section{
+  margin-top: 5rem;
+}
 
+@media screen  and (max-width: 1024px) {
+  .container{
+    width:var(--container-width-md)
+  }
+  section{
+      margin-top: 4rem;
+  }
+}
+
+@media screen  and (max-width: 600px) {
+  .container{
+    width:var(--container-width-sm)
+  }
+  section{
+      margin-bottom: 2rem;
+  }
+}
