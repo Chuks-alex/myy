@@ -1,0 +1,16 @@
+.project3__container{
+    margin-top: 5rem;
+   
+}
+.project3__container img{
+    width: 40rem;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+@media screen and (max-width:600px) {
+    
+}
+
+@media screen and (max-width:1040px) {
+    
+}

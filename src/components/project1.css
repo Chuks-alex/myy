@@ -1,0 +1,27 @@
+.project1__container{
+    margin-top: 5rem;
+    
+}
+
+.project1__container img{
+    width: 40rem;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+figcaption {
+    text-transform: capitalize;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    margin: 1rem 0;
+}
+.project1__container p{
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:600px) {
+    
+}
+
+@media screen and (max-width:1040px) {
+    
+}

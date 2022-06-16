@@ -1,0 +1,22 @@
+.product2__container{
+    margin-top: 5rem;
+ position: relative;
+ left: 20rem;
+
+}
+.product2__container img{
+    width: 40rem;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+.product2__container p{
+    text-transform: capitalize;
+}
+
+@media screen and (max-width:600px) {
+    
+}
+
+@media screen and (max-width:1040px) {
+    
+}
