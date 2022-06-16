@@ -1,0 +1,44 @@
+.paragraph__container{
+
+    display: flex;
+    text-align: center;
+    gap: 2rem;
+    margin-top: 5rem;
+
+}
+
+.paragraph__container img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.paragraph__container h3{
+    text-align: start;
+    font-weight: 10;
+    text-transform: uppercase;
+}
+strong{
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+.paragraph__image{
+    background-color: var(--bg-color);
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    transform: skewx(-10deg);
+    transition: all 2s ease;
+}
+.paragraph__image:hover{
+    transform: rotate( -100deg);
+}
+.stars{
+    position: absolute;
+    right: 11rem;
+    gap: 1rem;
+   top: 28rem;
+   transform: skewy(20deg);
+    display: flex;
+    flex-direction: column;
+}

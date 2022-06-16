@@ -1,0 +1,49 @@
+.selected__container{
+    margin-top: 5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.selected__container h1{
+    font-size: 7rem;
+    font-weight: 1;
+   
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    /* font-family: 'Courier New', Courier, monospace; */
+    
+}
+.selected__circle{
+    width: 3rem;
+    height: 3rem;
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.selected__circle p{
+    text-align: center;
+    margin: 0.7rem 0.5rem;
+    font-family: 'Courier New', Courier, monospace;
+   font-size: 1.2rem;
+}
+
+.project{
+    display: flex;
+    gap: 5rem;
+}
+.project h2{
+    font-size: 5rem;
+    font-weight: 1;
+
+}
+.reduce2{
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+}
+
+.right{
+    margin-left: 6rem;
+    padding: 0;
+    position: relative;
+    top: 2rem;
+    right: 1.5rem;
+
+}

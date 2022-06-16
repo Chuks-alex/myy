@@ -1,0 +1,19 @@
+.menu__container{
+    display: flex;
+    justify-content: space-between;
+    text-transform: capitalize;
+    padding:1rem;
+   
+}
+.link{
+    text-align: start;
+    transition: var(--transition);
+    margin-left: 7rem;
+    position: absolute;
+    right: 4.5rem;
+}
+
+.menu__container h4{
+    position: absolute;
+    left: 4rem;
+}
