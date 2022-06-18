@@ -5,7 +5,7 @@
 
 }
 .product2__container img{
-    width: 40rem;
+    width: 30rem;
     box-shadow: 2px 2px 2px 2px grey;
 }
 
@@ -13,10 +13,33 @@
     text-transform: capitalize;
 }
 
-@media screen and (max-width:600px) {
-    
+
+
+@media screen and (max-width:1024px) {
+    .product2__container img{
+        width: 25rem;
+        position: relative;
+        left: -15rem;
+       
+    }
+    .project2__caption{
+        position: relative;
+        left: -18rem;
+       
+    }
 }
 
-@media screen and (max-width:1040px) {
-    
+@media screen and (max-width:600px) {
+    .product2__container img{
+        width: 20rem;
+        position: relative;
+        left: -18rem;
+       
+    }
+    .project2__caption{
+        position: relative;
+        left: -18rem;
+       
+    }
+
 }

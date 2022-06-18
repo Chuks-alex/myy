@@ -4,7 +4,7 @@
 }
 
 .project1__container img{
-    width: 40rem;
+    width: 30rem;
     box-shadow: 2px 2px 2px 2px grey;
 }
 
@@ -18,10 +18,16 @@ figcaption {
     text-transform: capitalize;
 }
 
-@media screen and (max-width:600px) {
+
+@media screen and (max-width:1024px) {
+    .project1__container img{
+        width: 25rem;
+    }
     
 }
 
-@media screen and (max-width:1040px) {
-    
+@media screen and (max-width:600px) {
+    .project1__container img{
+        width: 20rem;
+    }
 }

@@ -7,9 +7,9 @@ function Project4() {
        <div className="container project4__container">
        <figure>
             <img src={fifth} alt="" />
-            <figcaption>the rooftoop beekeper</figcaption>
+            <figcaption className='project4__fig'>the rooftoop beekeper</figcaption>
         </figure>
-        <p>Web Design</p>
+        <p className='project4__fig'>Web Design</p>
        </div>
     </div>
   )

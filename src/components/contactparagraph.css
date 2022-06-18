@@ -1,0 +1,44 @@
+.contact__paragraph{
+    display: flex;
+    margin-top: 5rem;
+    gap: 4rem;
+    
+}
+
+.contact__paragraph img{
+    width: 100px;
+    height: 120px;
+    border-radius: 100%;
+    transform: skewX(-12deg);
+}
+.contact__paragraph p{
+    text-transform: uppercase;
+    margin-left: 2rem;
+}
+
+.paragraph__icon{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 4.3rem;
+    top: 1rem;
+    transform: skewX(-10deg);
+}
+
+.first__name{
+    margin-bottom: 2rem;
+}
+.third__name{
+    margin-top: 0.5rem;
+    font-size: 0.5rem;
+}
+
+@media screen and (max-width:1024px) {
+    
+}
+
+@media screen and (max-width:600px) {
+    .contact__paragraph{
+        gap: 4rem;
+    }
+}

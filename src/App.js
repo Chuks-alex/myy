@@ -14,6 +14,10 @@ import Project7 from "./components/project7";
 import Project8 from "./components/project8";
 import Project9 from "./components/project9";
 import Project10 from "./components/project10";
+import Contact from "./components/contact";
+import Contactparagraph from "./components/contactparagraph";
+import Form from "./components/form";
+import Footer from "./components/footer";
 function App() {
   return (
   <div className="main">
@@ -31,6 +35,10 @@ function App() {
     <Project8/>
     <Project9/>
     <Project10/>
+    <Contact/>
+    <Contactparagraph/>
+    <Form/>
+    <Footer/>
   </div>
   );
 }

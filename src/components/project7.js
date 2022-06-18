@@ -6,9 +6,9 @@ function Project7() {
     <div><div className="container project5__container">
         <figure>
             <img src={eight} alt="" />
-            <figcaption>travel app</figcaption>
+            <figcaption className='fig__proj'>travel app</figcaption>
         </figure>
-        <p>App Design</p>
+        <p className='fig__proj'>App Design</p>
     </div>
 
     </div>

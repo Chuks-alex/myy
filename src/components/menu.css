@@ -11,9 +11,62 @@
     margin-left: 7rem;
     position: absolute;
     right: 4.5rem;
+   
 }
-
+.link li{
+    padding: 0.2rem;
+}
 .menu__container h4{
     position: absolute;
     left: 4rem;
+}
+
+nav a.active{
+ background-color: grey;
+ color: white;
+ padding: 1px;
+ text-align: center;
+
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+    
+}
+/* a.active::before{
+    content: "";
+    width: 1rem;
+    background-color: black;
+} */
+
+.dike::after{
+    content: "";
+    width: 5rem;
+    height: 1rem;
+    /* background-color: grey; */
+    border: 2px solid black;
+    
+
+}
+
+.dike::before{
+    content: "";
+    width: 5rem;
+    height: 1rem;
+    /* background-color: grey; */
+    border: 2px solid black;
+}
+
+.dike{
+    animation-name: dike;
+    animation-duration: 4s;
+    animation-iteration-count: infinite
+}
+
+@keyframes dike {
+   0% {right: 2rem;}
+   10% {top: 3rem;}
+   100% {left: auto;}
 }

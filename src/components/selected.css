@@ -59,3 +59,66 @@
    bottom: 2rem;
   
 }
+
+@media screen and (max-width:1024px) {
+    .selected__container h1{
+        font-size: 5.1rem;
+        font-weight: 1
+    }
+    .project h2{
+        font-size: 3.8rem;
+    }
+    .project{
+        gap: 0.1rem;
+    }
+
+    .selected__circle{
+        width: 3rem;
+        height: 3rem;
+        margin-top: 2rem;
+        margin-left: 1.5rem;
+        border-radius: 100%;
+        border: 1px solid black;
+    }
+    .reduce2{
+        font-size: 1.4rem;
+        margin-bottom: 1.2rem;
+        position: relative;
+        right: 1rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .selected__container h1{
+        font-size: 4rem
+    }
+    .project h2{
+        font-size: 3rem;
+    }
+    .selected__circle{
+        width: 2.4rem;
+        height: 2.4rem;
+        margin-top: 1rem;
+        margin-left: 1.5rem;
+        border-radius: 100%;
+    }
+
+    .left{
+        position: relative;
+        bottom: 0.5rem;
+        left: 1rem;
+    }
+    
+    .right{
+        margin-left: 4rem;
+        padding: 0;
+        position: relative;
+        top: 1.9rem;
+        right: -0rem;
+    
+    }
+    .project{
+        gap: 1rem;
+    }
+    
+}

@@ -17,4 +17,37 @@
     font-size: 1.7rem;
     margin-bottom: 1rem;
     margin-right: 2rem;
+    position: relative;
+    bottom: 1.2rem;
+}
+
+@media screen and (max-width:1024px) {
+    .header__container h1{
+        font-size: 4rem;
+        
+    }
+    .header__image{
+        width: 50px;
+    }
+    .reduce{
+        font-size: 2rem;
+        position: relative;
+    bottom: 0.2rem;
+    }
+}
+
+@media screen and (max-width:600px) {
+   
+
+    .header__container h1{
+        font-size: 2.5rem;
+    }
+    .header__image{
+        width: 40px;
+    }
+    .reduce{
+        font-size: 1rem;
+        position: relative;
+    bottom: 0.1rem;
+    }
 }

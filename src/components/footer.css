@@ -1,0 +1,33 @@
+.foote{
+    display: flex;
+    flex-direction: row;
+    gap: 0.3rem;
+    
+}
+
+.last__one{
+    display: flex;
+gap: 20rem;
+border-top: 1px double grey;
+padding: 1rem;
+margin-top: 3rem;
+}
+
+@media screen and (max-width:1024px) {
+    
+}
+
+@media screen and (max-width:600px) {
+   .foote{
+    flex-direction: column;
+   }
+   .last__one{
+    gap: 5rem;
+   }
+   .copyright{
+    margin-top: 3rem;
+   }
+   .back__totop{
+    margin-top: 7rem;
+   }
+}

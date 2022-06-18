@@ -6,7 +6,7 @@ function Header() {
   return (
     <div id='#'>
         <div className="container header__container">
-            <h1>CREA<img className='header__image' src={download} alt="" />TIVE WEB DEVELOPER NIGERIA <BsBrightnessHigh className='reduce'/> </h1> 
+            <h1>CREA<img className='header__image' src={download} alt="" />TIVE UI/UX DESIGNER BANGLADASH<BsBrightnessHigh className='reduce'/> </h1> 
         </div>
     </div>
   )
