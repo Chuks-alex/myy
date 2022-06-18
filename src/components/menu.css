@@ -29,7 +29,7 @@ nav a.active{
 
 }
 
-nav{
+.nav{
     display: flex;
     flex-direction: column;
     gap: 0.3rem;
@@ -69,4 +69,19 @@ nav{
    0% {right: 2rem;}
    10% {top: 3rem;}
    100% {left: auto;}
+}
+
+.bttt{
+   position: absolute;
+   right: 2rem;
+}
+
+.link{
+    display: flex;
+    flex-direction: column;
+    padding: rem;
+
+}
+.link a{
+    padding: 0.5rem;
 }

@@ -63,16 +63,40 @@ right:6rem ;
 
 @media screen and (max-width:600px) {
     .contact__container h1{
-        font-size: 4.5rem;
+        font-size: 4rem;
+        margin-left: 2rem;
     }
     .contact__circle h2{
-        font-size: 4rem;
+        font-size: 3rem;
         margin-left: 0rem;
     }
     .smally{
         font-size: 1rem;
-        margin-bottom: 1.3rem;
+        margin-bottom: 1.rem;
     position: relative;
-    right:2.8rem ;  
+    right:1.9rem ; 
+    top: 10px; 
     }
+
+    .contact__circle{
+        display: flex;
+        gap: 2rem;
+        margin-left: 3rem;
+        
+    }
+    .circled__contact p{
+        text-align: center;
+       margin: 1rem 0;
+       font-size: 1rem;
+    }
+    .circled__contact{
+        width: 2.5rem;
+        height: 2.5rem;
+        border-radius: 100%;
+        border: 1px solid black;
+    }
+    .contact__right{
+        margin-left: 2rem;
+    }
+    
 }

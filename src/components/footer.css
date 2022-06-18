@@ -14,7 +14,13 @@ margin-top: 3rem;
 }
 
 @media screen and (max-width:1024px) {
-    
+    .last__one{
+        display: flex;
+    gap: 5rem;
+    border-top: 1px double grey;
+    padding: 1rem;
+    margin-top: 3rem;
+    }
 }
 
 @media screen and (max-width:600px) {
@@ -28,6 +34,6 @@ margin-top: 3rem;
     margin-top: 3rem;
    }
    .back__totop{
-    margin-top: 7rem;
+    margin-top: 3rem;
    }
 }

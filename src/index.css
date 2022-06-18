@@ -19,16 +19,14 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
-.main{
-  background-color: white;
-  margin: 3rem 3rem;
-}
 
 body{
   font-family: 'Poppins', sans-serif;
   line-height: 1;
   color: var(--txt-color);
-  background-color: var(--txt-color);
+  background-color: white;
+  border:1rem solid black;
+  width: 100%;
   
 }
 htm{

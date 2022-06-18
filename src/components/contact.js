@@ -7,7 +7,7 @@ function Contact() {
     <div id='contact'>
 
         <div className="container contact__container">
-            <h1>GET INTO</h1>
+            <h1>GET IN</h1>
             <div className="contact__circle">
                 <div className="main__circle">
                 <VscStarFull className='contact__right'/>

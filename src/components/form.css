@@ -48,7 +48,7 @@ label{
 
 @media screen and (max-width:1024px) {
     .message{
-        width: 30rem;
+        width: 25rem;
         position: relative;
         right: -0rem;
        }
@@ -95,12 +95,14 @@ label{
   }
 
    .message{
-    width: 22rem;
+    width: 18rem;
     position: relative;
-    right: 4rem;
+    right: 0.2rem;
+    bottom: 7rem;
    }
    .messaged{
     margin-left: -6rem;
+   
    }
    .contained{
     display: flex;

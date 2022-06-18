@@ -90,17 +90,20 @@
 
 @media screen and (max-width:600px) {
     .selected__container h1{
-        font-size: 4rem
+        font-size: 3rem
     }
     .project h2{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .selected__circle{
-        width: 2.4rem;
-        height: 2.4rem;
-        margin-top: 1rem;
+        width: 2rem;
+        height: 2rem;
+        margin-top: 1.5rem;
         margin-left: 1.5rem;
         border-radius: 100%;
+    }
+    .selected__circle p{
+        margin: 5px;
     }
 
     .left{
@@ -113,12 +116,16 @@
         margin-left: 4rem;
         padding: 0;
         position: relative;
-        top: 1.9rem;
-        right: -0rem;
+        top: 2.2rem;
+        right: 0.4rem;
     
     }
     .project{
-        gap: 1rem;
+        gap: 0.5rem;
     }
-    
+    .reduce2{
+        font-size: 1.4rem;
+       position: relative;
+       top: 1rem;
+    }
 }
