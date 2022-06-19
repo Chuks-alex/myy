@@ -58,8 +58,14 @@ nav a.active{
     /* background-color: grey; */
     border: 2px solid black;
 }
-
 .dike{
+   position: absolute;
+  margin-left: -2rem;
+  font-weight: 1;
+  text-transform: uppercase;
+}
+
+/* .dike{
     animation-name: dike;
     animation-duration: 4s;
     animation-iteration-count: infinite
@@ -69,19 +75,45 @@ nav a.active{
    0% {right: 2rem;}
    10% {top: 3rem;}
    100% {left: auto;}
-}
+} */
 
 .bttt{
    position: absolute;
-   right: 2rem;
+   right: 3rem;
 }
 
 .link{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: rem;
+    row-gap: 2rem;
 
 }
 .link a{
     padding: 0.5rem;
+}
+
+@media screen and (max-width: 1024px){
+    .link{
+        display: flex;
+        flex-direction: column;
+        padding: rem;
+        column-gap: 1rem;
+        background-color: grey;
+       width: 50%;
+       transition: var(--transition);
+    
+    }
+    .link a{
+        padding: 0.5rem;
+        background-color: white;
+        border: 1px solid black;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .link{
+        flex-direction: column;
+    }
 }
